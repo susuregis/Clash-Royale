@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Clash Royale - Análise de Batalhas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Supercell:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <h1>Análise de Batalhas</h1>
+    </div>
+    <div class="arena-background"></div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <button class="nav-btn active" data-page="page1"><i class="fas fa-chart-pie"></i> Vitórias por Carta</button>
+      <button class="nav-btn" data-page="page2"><i class="fas fa-trophy"></i> Decks Campeões</button>
+      <button class="nav-btn" data-page="page3"><i class="fas fa-skull-crossbones"></i> Combos Derrotados</button>
+      <button class="nav-btn" data-page="page4"><i class="fas fa-crown"></i> Vitórias Especiais</button>
+      <button class="nav-btn" data-page="page5"><i class="fas fa-chess-knight"></i> Combos Vitoriosos</button>
+      <button class="nav-btn" data-page="page6"><i class="fas fa-fire"></i> Cartas Populares</button>
+      <button class="nav-btn" data-page="page7"><i class="fas fa-shield-alt"></i> Contra-ataques</button>
+      <button class="nav-btn" data-page="page8"><i class="fas fa-users"></i> Jogadores</button>
+      <button class="nav-btn" data-page="page9"><i class="fas fa-handshake"></i> Sinergias</button>
+      <button class="nav-btn" data-page="page10"><i class="fas fa-chart-line"></i> Evolução</button>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <!-- Consulta 1 -->
+    <section id="page1" class="page active">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/c/c7/Battle.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>1. Porcentagem de Vitórias/Derrotas com Carta X</h2>
+      </div>
+      <div class="input-group">
+        <label>Carta: 
+          <div class="input-card-container">
+            <input type="number" id="cartaX" class="carta-input" list="cartasDatalist" value="26000008">
+            <span class="card-name-display"></span>
+          </div>
+        </label>
+        <button onclick="consulta1()" class="clash-btn">Calcular <i class="fas fa-calculator"></i></button>
+      </div>
+      <div id="resultado1" class="resultado">Carregando dados... <div class="loading-spinner"></div></div>
+      <div class="pagination">
+        <button class="next-btn" data-next="page2">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 2 -->
+    <section id="page2" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/7/7c/LeagueMedal.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>2. Decks com mais de X% de Vitórias</h2>
+      </div>
+      <div class="input-group">
+        <label>Porcentagem mínima (%): <input type="number" id="pctDecks" value="70"></label>
+        <button onclick="consulta2()" class="clash-btn">Listar <i class="fas fa-list"></i></button>
+      </div>
+      <div id="resultado2" class="resultado">Clique em Listar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page1"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page3">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 3 -->
+    <section id="page3" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/d/db/CrownRed.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>3. Derrotas com Combo de Cartas</h2>
+      </div>
+      <div class="input-group">
+        <label>IDs das Cartas (separados por vírgula): <input type="text" id="comboCartas" placeholder="Ex: 26000008, 26000004"></label>
+        <button onclick="consulta3()" class="clash-btn">Calcular <i class="fas fa-calculator"></i></button>
+      </div>
+      <div id="resultado3" class="resultado">Clique em Calcular para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page2"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page4">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 4 -->
+    <section id="page4" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/5/5a/CrownBlue.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>4. Vitórias com Carta X e Condições Especiais</h2>
+      </div>
+      <div class="input-group">
+        <label>Carta: 
+          <div class="input-card-container">
+            <input type="number" id="cartaX4" class="carta-input" list="cartasDatalist2" value="26000008">
+            <span class="card-name-display"></span>
+          </div>
+        </label>
+        <label>Diferença mínima de troféus (%): <input type="number" id="pctTrof" value="10"></label>
+        <button onclick="consulta4()" class="clash-btn">Calcular <i class="fas fa-trophy"></i></button>
+      </div>
+      <div id="resultado4" class="resultado">Clique em Calcular para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page3"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page5">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 5 -->
+    <section id="page5" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/9/95/Arena_Cards.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>5. Combos de Cartas de Tamanho N com mais de Y% de Vitórias</h2>
+      </div>
+      <div class="input-group">
+        <label>Tamanho do Combo (N): <input type="number" id="tamCombo" value="3"></label>
+        <label>Porcentagem mínima (%): <input type="number" id="pctComboWins" value="65"></label>
+        <button onclick="consulta5()" class="clash-btn">Listar <i class="fas fa-search"></i></button>
+      </div>
+      <div id="resultado5" class="resultado">Clique em Listar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page4"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page6">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consultas 6-10 permanecem com a mesma estrutura, apenas adicionando elementos temáticos -->
+    <!-- Consulta 6 -->
+    <section id="page6" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/4/4a/Legendary.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>6. Cartas Mais Usadas</h2>
+      </div>
+      <div class="input-group">
+        <label>Quantidade de cartas: <input type="number" id="qtdCartasMaisUsadas" value="10"></label>
+        <button onclick="consulta6()" class="clash-btn">Analisar <i class="fas fa-chart-bar"></i></button>
+      </div>
+      <div id="resultado6" class="resultado">Clique em Analisar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page5"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page7">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 7 -->
+    <section id="page7" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/9/9e/Shield.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>7. Cartas Eficazes Contra uma Carta Específica</h2>
+      </div>
+      <div class="input-group">
+        <label>Carta alvo: 
+          <div class="input-card-container">
+            <input type="number" id="cartaAlvo" class="carta-input" list="cartasDatalist3" value="26000008">
+            <span class="card-name-display"></span>
+          </div>
+        </label>
+        <label>Limite de resultados: <input type="number" id="limiteResultados" value="10"></label>
+        <button onclick="consulta7()" class="clash-btn">Analisar <i class="fas fa-crosshairs"></i></button>
+      </div>
+      <div id="resultado7" class="resultado">Clique em Analisar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page6"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page8">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 8 -->
+    <section id="page8" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/5/5b/Clan_Wars_Trophy.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>8. Performance dos Jogadores</h2>
+      </div>
+      <div class="input-group">
+        <label>Mínimo de batalhas: <input type="number" id="minBatalhas" value="5"></label>
+        <button onclick="consulta8()" class="clash-btn">Analisar <i class="fas fa-users"></i></button>
+      </div>
+      <div id="resultado8" class="resultado">Clique em Analisar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page7"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page9">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 9 -->
+    <section id="page9" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/e/e9/Clan_Badge.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>9. Pares de Cartas com Maior Sinergia</h2>
+      </div>
+      <div class="input-group">
+        <label>Limite de resultados: <input type="number" id="limitePares" value="10"></label>
+        <button onclick="consulta9()" class="clash-btn">Analisar <i class="fas fa-link"></i></button>
+      </div>
+      <div id="resultado9" class="resultado">Clique em Analisar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page8"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+        <button class="next-btn" data-next="page10">Próxima Consulta <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Consulta 10 -->
+    <section id="page10" class="page">
+      <div class="page-header">
+        <img src="https://static.wikia.nocookie.net/clashroyale/images/a/a0/Chest.png/revision/latest/scale-to-width-down/60" class="card-icon">
+        <h2>10. Evolução do Uso de uma Carta</h2>
+      </div>
+      <div class="input-group">
+        <label>Carta: 
+          <div class="input-card-container">
+            <input type="number" id="cartaEvolucao" class="carta-input" list="cartasDatalist4" value="26000008">
+            <span class="card-name-display"></span>
+          </div>
+        </label>
+        <button onclick="consulta10()" class="clash-btn">Analisar <i class="fas fa-chart-line"></i></button>
+      </div>
+      <div id="resultado10" class="resultado">Clique em Analisar para ver os resultados</div>
+      <div class="pagination">
+        <button class="prev-btn" data-prev="page9"><i class="fas fa-arrow-left"></i> Consulta Anterior</button>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="towers">
+      <div class="tower blue-tower"></div>
+      <p>Análise de dados de batalhas do Clash Royale</p>
+      <div class="tower red-tower"></div>
+    </div>
+    <div class="elixir-bar">
+      <div class="elixir"></div>
+    </div>
+  </footer>
+  
+  <script src="main.js"></script>
+  <script src="navigation.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

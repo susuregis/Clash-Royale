@@ -1,0 +1,833 @@
+[{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a54"
+  },
+  "Card": "Knight",
+  "id": 26000000
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a55"
+  },
+  "Card": "Archers",
+  "id": 26000001
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a56"
+  },
+  "Card": "Goblins",
+  "id": 26000002
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a57"
+  },
+  "Card": "Giant",
+  "id": 26000003
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a58"
+  },
+  "Card": "P.E.K.K.A",
+  "id": 26000004
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a59"
+  },
+  "Card": "Minions",
+  "id": 26000005
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5a"
+  },
+  "Card": "Balloon",
+  "id": 26000006
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5b"
+  },
+  "Card": "Witch",
+  "id": 26000007
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5c"
+  },
+  "Card": "Barbarians",
+  "id": 26000008
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5d"
+  },
+  "Card": "Golem",
+  "id": 26000009
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5e"
+  },
+  "Card": "Skeletons",
+  "id": 26000010
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a5f"
+  },
+  "Card": "Valkyrie",
+  "id": 26000011
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a60"
+  },
+  "Card": "Skeleton Army",
+  "id": 26000012
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a61"
+  },
+  "Card": "Bomber",
+  "id": 26000013
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a62"
+  },
+  "Card": "Musketeer",
+  "id": 26000014
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a63"
+  },
+  "Card": "Baby Dragon",
+  "id": 26000015
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a64"
+  },
+  "Card": "Prince",
+  "id": 26000016
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a65"
+  },
+  "Card": "Wizard",
+  "id": 26000017
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a66"
+  },
+  "Card": "Mini P.E.K.K.A",
+  "id": 26000018
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a67"
+  },
+  "Card": "Spear Goblins",
+  "id": 26000019
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a68"
+  },
+  "Card": "Giant Skeleton",
+  "id": 26000020
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a69"
+  },
+  "Card": "Hog Rider",
+  "id": 26000021
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6a"
+  },
+  "Card": "Minion Horde",
+  "id": 26000022
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6b"
+  },
+  "Card": "Ice Wizard",
+  "id": 26000023
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6c"
+  },
+  "Card": "Royal Giant",
+  "id": 26000024
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6d"
+  },
+  "Card": "Guards",
+  "id": 26000025
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6e"
+  },
+  "Card": "Princess",
+  "id": 26000026
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a6f"
+  },
+  "Card": "Dark Prince",
+  "id": 26000027
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a70"
+  },
+  "Card": "Three Musketeers",
+  "id": 26000028
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a71"
+  },
+  "Card": "Lava Hound",
+  "id": 26000029
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a72"
+  },
+  "Card": "Ice Spirit",
+  "id": 26000030
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a73"
+  },
+  "Card": "Fire Spirit",
+  "id": 26000031
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a74"
+  },
+  "Card": "Miner",
+  "id": 26000032
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a75"
+  },
+  "Card": "Sparky",
+  "id": 26000033
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a76"
+  },
+  "Card": "Bowler",
+  "id": 26000034
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a77"
+  },
+  "Card": "Lumberjack",
+  "id": 26000035
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a78"
+  },
+  "Card": "Battle Ram",
+  "id": 26000036
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a79"
+  },
+  "Card": "Inferno Dragon",
+  "id": 26000037
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7a"
+  },
+  "Card": "Ice Golem",
+  "id": 26000038
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7b"
+  },
+  "Card": "Mega Minion",
+  "id": 26000039
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7c"
+  },
+  "Card": "Dart Goblin",
+  "id": 26000040
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7d"
+  },
+  "Card": "Goblin Gang",
+  "id": 26000041
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7e"
+  },
+  "Card": "Electro Wizard",
+  "id": 26000042
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a7f"
+  },
+  "Card": "Elite Barbarians",
+  "id": 26000043
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a80"
+  },
+  "Card": "Hunter",
+  "id": 26000044
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a81"
+  },
+  "Card": "Executioner",
+  "id": 26000045
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a82"
+  },
+  "Card": "Bandit",
+  "id": 26000046
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a83"
+  },
+  "Card": "Royal Recruits",
+  "id": 26000047
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a84"
+  },
+  "Card": "Night Witch",
+  "id": 26000048
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a85"
+  },
+  "Card": "Bats",
+  "id": 26000049
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a86"
+  },
+  "Card": "Royal Ghost",
+  "id": 26000050
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a87"
+  },
+  "Card": "Ram Rider",
+  "id": 26000051
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a88"
+  },
+  "Card": "Zappies",
+  "id": 26000052
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a89"
+  },
+  "Card": "Rascals",
+  "id": 26000053
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8a"
+  },
+  "Card": "Cannon Cart",
+  "id": 26000054
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8b"
+  },
+  "Card": "Mega Knight",
+  "id": 26000055
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8c"
+  },
+  "Card": "Skeleton Barrel",
+  "id": 26000056
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8d"
+  },
+  "Card": "Flying Machine",
+  "id": 26000057
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8e"
+  },
+  "Card": "Wall Breakers",
+  "id": 26000058
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a8f"
+  },
+  "Card": "Royal Hogs",
+  "id": 26000059
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a90"
+  },
+  "Card": "Goblin Giant",
+  "id": 26000060
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a91"
+  },
+  "Card": "Fisherman",
+  "id": 26000061
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a92"
+  },
+  "Card": "Magic Archer",
+  "id": 26000062
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a93"
+  },
+  "Card": "Electro Dragon",
+  "id": 26000063
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a94"
+  },
+  "Card": "Firecracker",
+  "id": 26000064
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a95"
+  },
+  "Card": "Mighty Miner",
+  "id": 26000065
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a96"
+  },
+  "Card": "Elixir Golem",
+  "id": 26000067
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a97"
+  },
+  "Card": "Battle Healer",
+  "id": 26000068
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a98"
+  },
+  "Card": "Skeleton King",
+  "id": 26000069
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a99"
+  },
+  "Card": "Archer Queen",
+  "id": 26000072
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9a"
+  },
+  "Card": "Golden Knight",
+  "id": 26000074
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9b"
+  },
+  "Card": "Monk",
+  "id": 26000077
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9c"
+  },
+  "Card": "Skeleton Dragons",
+  "id": 26000080
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9d"
+  },
+  "Card": "Mother Witch",
+  "id": 26000083
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9e"
+  },
+  "Card": "Electro Spirit",
+  "id": 26000084
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863a9f"
+  },
+  "Card": "Electro Giant",
+  "id": 26000085
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa0"
+  },
+  "Card": "Phoenix",
+  "id": 26000087
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa1"
+  },
+  "Card": "Little Prince",
+  "id": 26000093
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa2"
+  },
+  "Card": "Goblin Demolisher",
+  "id": 26000095
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa3"
+  },
+  "Card": "Goblin Machine",
+  "id": 26000096
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa4"
+  },
+  "Card": "Suspicious Bush",
+  "id": 26000097
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa5"
+  },
+  "Card": "Goblinstein",
+  "id": 26000099
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa6"
+  },
+  "Card": "Rune Giant",
+  "id": 26000101
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa7"
+  },
+  "Card": "Berserker",
+  "id": 26000102
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa8"
+  },
+  "Card": "Boss Bandit",
+  "id": 26000103
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aa9"
+  },
+  "Card": "Cannon",
+  "id": 27000000
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aaa"
+  },
+  "Card": "Goblin Hut",
+  "id": 27000001
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aab"
+  },
+  "Card": "Mortar",
+  "id": 27000002
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aac"
+  },
+  "Card": "Inferno Tower",
+  "id": 27000003
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aad"
+  },
+  "Card": "Bomb Tower",
+  "id": 27000004
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aae"
+  },
+  "Card": "Barbarian Hut",
+  "id": 27000005
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aaf"
+  },
+  "Card": "Tesla",
+  "id": 27000006
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab0"
+  },
+  "Card": "Elixir Collector",
+  "id": 27000007
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab1"
+  },
+  "Card": "X-Bow",
+  "id": 27000008
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab2"
+  },
+  "Card": "Tombstone",
+  "id": 27000009
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab3"
+  },
+  "Card": "Furnace",
+  "id": 27000010
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab4"
+  },
+  "Card": "Goblin Cage",
+  "id": 27000012
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab5"
+  },
+  "Card": "Goblin Drill",
+  "id": 27000013
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab6"
+  },
+  "Card": "Fireball",
+  "id": 28000000
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab7"
+  },
+  "Card": "Arrows",
+  "id": 28000001
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab8"
+  },
+  "Card": "Rage",
+  "id": 28000002
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ab9"
+  },
+  "Card": "Rocket",
+  "id": 28000003
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aba"
+  },
+  "Card": "Goblin Barrel",
+  "id": 28000004
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863abb"
+  },
+  "Card": "Freeze",
+  "id": 28000005
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863abc"
+  },
+  "Card": "Mirror",
+  "id": 28000006
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863abd"
+  },
+  "Card": "Lightning",
+  "id": 28000007
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863abe"
+  },
+  "Card": "Zap",
+  "id": 28000008
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863abf"
+  },
+  "Card": "Poison",
+  "id": 28000009
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac0"
+  },
+  "Card": "Graveyard",
+  "id": 28000010
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac1"
+  },
+  "Card": "The Log",
+  "id": 28000011
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac2"
+  },
+  "Card": "Tornado",
+  "id": 28000012
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac3"
+  },
+  "Card": "Clone",
+  "id": 28000013
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac4"
+  },
+  "Card": "Earthquake",
+  "id": 28000014
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac5"
+  },
+  "Card": "Barbarian Barrel",
+  "id": 28000015
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac6"
+  },
+  "Card": "Heal Spirit",
+  "id": 28000016
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac7"
+  },
+  "Card": "Giant Snowball",
+  "id": 28000017
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac8"
+  },
+  "Card": "Royal Delivery",
+  "id": 28000018
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863ac9"
+  },
+  "Card": "Void",
+  "id": 28000023
+},
+{
+  "_id": {
+    "$oid": "67fdab40761deb49bf863aca"
+  },
+  "Card": "Goblin Curse",
+  "id": 28000024
+}]
